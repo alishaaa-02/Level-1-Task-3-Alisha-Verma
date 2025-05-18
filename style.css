@@ -7,7 +7,6 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  padding: 0;
   background-color: #f2d4d4;
   text-align: center;
 }
@@ -17,10 +16,10 @@ h1 {
 }
 
 h5{
-    color:rgb(3, 3, 123);
+    color:rgb(3, 3, 124);
 }
 
-#posts-container {
+#box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -28,7 +27,7 @@ h5{
   margin-top: 20px;
 }
 
-.post {
+.box {
   background-color: rgb(205, 247, 247);
   padding: 15px;
   border-radius: 8px;
@@ -36,4 +35,5 @@ h5{
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   text-align: left;
 }
+
 
